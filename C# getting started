@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace HelloWorld
+{
+	public class Program
+	{
+		public static void Main(string[] args)
+		{
+      string userName = Console.ReadLine();           //--getting input from user--
+                                                      //--type of input A.K.A String declaration--
+      Console.WriteLine("Username is: " + userName);  //--printing the output--
+      
+      //---------------------------------------------------------------------
+      
+      /* -- IF CONDITION✅ -- */
+      
+      int num=101001;                              //--data declaration integer type--
+      String name="QUANTUM";                       //--data declaration String type--
+      
+      if(num==101001 && name=="QUANTUM")           //--IF CONDITION--
+      {                                            //--"&&" used to check both the condition--
+        Console.WriteLine("you god damn right");    //--print if the statement is correct--
+      }
+      else
+      {
+        Console.WriteLine("you lost bro");
+      }
+      
+       //---------------------------------------------------------------------
+       
+       /* -- for loop♾️ -- */
+       
+       for(int i=0; i<=10; i++)  //--for loop for iterate 10 times--
+       {
+         Console.WriteLine("the numers are {0}",i);  //--printing the result--
+       }
+       
+       /*-------------------------------👍THANK YOU-🌈-----------------------------------*/
+       
+      
+
+		}
+	}
+}
